@@ -58,7 +58,7 @@ span{
 }
 .faq-line{
   background:white;
-  height:0.5rem;
+  height:0.2rem;
   margin:2rem 0rem;
   width:100%;
 }
