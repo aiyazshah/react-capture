@@ -1,27 +1,33 @@
 import React from 'react'
+// import styledComponents from 'styled-components'
 import home1 from "../img/home1.png"
+import {About,Description,Hide,Image} from "../styles.js"
+import styled from "styled-components"
 
 export default function AboutSection() {
   return (
-    <div>
-        <div className="description">
+    <About>
+        <Description>
          <div className="title">
-            <div className="hide">
+            <Hide>
                 <h1>We work to make</h1>
-            </div>
-            <div className="hide">
+            </Hide>
+            <Hide>
                 <h2>your <span>dreams </span>come</h2>
-            </div>     
-            <div className="hide">
+            </Hide>     
+            <Hide>
             <h2>True</h2>
-            </div>
+            </Hide>
+            <p>Contact us for any photography or videography ideas that you have, we have professionals with amazing skills</p>
+        <button>ContactUs</button>    
         </div>   
-        </div>
-        <p>Contact us for any photography or videography ideas that you have, we have professionals with amazing skills</p>
-        <button>ContactUs</button>
-        <div className="image">
+        </Description>
+       
+        <Image>
         <img src={home1} alt="home1" />
-        </div>
-    </div>
+        </Image>
+    </About>
   )
 }
+
+//
