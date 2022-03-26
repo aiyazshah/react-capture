@@ -1,28 +1,25 @@
 import React from 'react'
 import styled from "styled-components"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export default function Nav() {
-  return (
-    
-         <StyledNav>
-                <h1><Link id='Logo' to="/">Capture</Link></h1>
-                <ul>
-                    <li>
-                        <Link to="/">1.AboutUs</Link>
-                    </li>
-                    <li>
-                        <Link to="/work">2.Our work</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">ContactUs</Link>
-                    </li>
-                </ul>
-         </StyledNav>
-    
-  )
+    return (
+
+        <StyledNav>
+            <h1><Link id='Logo' to="/">Capture</Link></h1>
+            <ul>
+                <li>
+                    <Link to="/">1.AboutUs</Link>
+                </li>
+                <li>
+                    <Link to="/work">2.Our work</Link>
+                </li>
+            </ul>
+        </StyledNav>
+
+    )
 }
-const StyledNav=styled.nav`
+const StyledNav = styled.nav`
 min-height:10vh;
 display:flex;
 margin:auto;
@@ -37,6 +34,7 @@ padding:1rem 10rem;
     font-family:"lobster",cursive;
     font-weight:lighter ;
     color:white;
+    
 
 }
 

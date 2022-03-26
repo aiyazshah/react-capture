@@ -1,5 +1,5 @@
-import { createGlobalStyle}  from "styled-components"
-const GlobalStyle= createGlobalStyle`
+import { createGlobalStyle } from "styled-components"
+const GlobalStyle = createGlobalStyle`
 padding:0 ;
 margin:0 ;
 box-sizing:border-box;
@@ -16,10 +16,10 @@ button{
     border:3px solid #23d997 ;
     background:transparent; 
     transition:all 0.5s ease ;
+    color:white;
     font-family: 'Inter', sans-serif;
     &:hover{
         background-color:#23d997 ;
-        color:white;
     }
 }
 h2{
